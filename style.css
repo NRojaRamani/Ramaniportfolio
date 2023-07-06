@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto&display=swap');
+
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        scroll-behavior: smooth;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+
+    body {
+        background: var(--bg-color);
+        color: var(--text-color);
+    }
+   
+.bannerBgImage{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/image\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerText{
+
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.about-text {
+    color: var(--second-color);
+    font-size: var(--p-font);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    margin-bottom: 4rem;
+}
+.card{
+     cursor: pointer;
+}
+.card:hover{
+    background-color:palevioletred;
+    border:3px solid yellowgreen;
+}
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border:3px solid yellowgreen;
+}
+.card-img-top{
+    height:50vh;
+}
